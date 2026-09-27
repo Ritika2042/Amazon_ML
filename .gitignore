@@ -1,0 +1,51 @@
+# ZIP/backups
+*.zip
+
+# Old model versions
+xgboost_entity_resolution_model_v1.pkl
+xgboost_entity_resolution_model_v2.pkl
+xgboost_entity_resolution_model_v3.pkl
+xgboost_entity_resolution_model_v4.pkl
+
+# Old feature versions
+feature_columns_v1.pkl
+feature_columns_v2.pkl
+feature_columns_v3.pkl
+feature_columns_v4.pkl
+
+# Large intermediate validation chunks
+s3_validation_feature_chunks/
+s3_validation_scored_chunks/
+s3_validation_v4_scored_chunks/
+s3_realistic_training_feature_chunks/
+
+# Old/temporary training artifacts
+training_pairs.pkl
+positive_train_raw.pkl
+negative_train_type1.pkl
+negative_train_type2_s2.pkl
+negative_train_type2_s3.pkl
+negative_train_type3_s2.pkl
+negative_train_type3_s3.pkl
+negative_train_type4_s2.pkl
+negative_train_type4_s3.pkl
+negative_train_type5_s2.pkl
+negative_train_type5_s3.pkl
+
+# Old pilot artifacts
+pilot_s2_blocking_frequencies.pkl
+pilot_s2_candidate_records.pkl
+pilot_s2_candidates.pkl
+pilot_s2_candidates_addr250.pkl
+pilot_s2_candidates_pair500.pkl
+pilot_s2_cascade_candidates.pkl
+pilot_s2_final_cascade_predictions.pkl
+pilot_s2_pair500_scored.pkl
+pilot_s2_scored.pkl
+
+# Huge temporary test artifact
+test_s2_pilot_50k_candidates.pkl
+
+# Generated submission copies
+submission/
+team_review/
